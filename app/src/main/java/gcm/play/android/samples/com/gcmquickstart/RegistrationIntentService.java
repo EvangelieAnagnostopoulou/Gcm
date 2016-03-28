@@ -89,7 +89,7 @@ public class RegistrationIntentService extends IntentService {
      */
     private void sendRegistrationToServer(String token) {
         // Add custom implementation, as needed.
-        AsyncHttpClient client = new AsyncHttpClient();
+        /*AsyncHttpClient client = new AsyncHttpClient();
         RequestParams params = new RequestParams();
         params.put("key", "value");
         params.put("id_token", token);
@@ -104,7 +104,7 @@ public class RegistrationIntentService extends IntentService {
                         // called when response HTTP status is "4XX" (eg. 401, 403, 404)
                     }
                 }
-        );
+        ); */
     }
 
     /**
